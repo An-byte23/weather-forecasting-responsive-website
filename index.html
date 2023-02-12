@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="searchForm">
+            <input type="text" placeholder="Enter City Name..." id="cityName" required autocomplete="off">
+            <button id="searchBtn">Search</button>
+        </div>  
+        <div class="card">
+            <div class="box">
+                <img src="./png-clipart-weather-forecasting-computer-icons-sunny-text-weather-forecasting-thumbnail-removebg-preview.png" alt="" id="logo">
+                <div class="b">
+                    <h2 class="city">Bhopal, IN</h2>
+                    <h2 class="date">Monday, 24 May 2023</h2>
+                </div>
+            </div>
+            <div class="cover">
+                <div class="box22">
+                    <h1 class="temp">31 °C</h1>
+                    <div class="b1">
+                        <div class="mintemp">
+                            <h4 >minimum </h4>
+                            <h4 id="min">5 °C</h4>
+                        </div>
+                        <div id="divider"></div>
+                        <div class="maxtemp">
+                            <h4 >maximum</h4>
+                            <h4 id="max">20 °C</h4>
+                        </div>
+        
+                    </div>
+                </div>
+                <h3 class="desc">Clear Sky</h3>
+            </div>
+            <div class="divi1"></div>
+            <div class="divB">
+                <div id="xx" class="right">
+                    <h4>Humidity</h4>
+                    <h5 class="humid">15.6%</h5>
+                </div>
+                <div id="dividerx"></div>
+
+                <div id="xx" class="mid">
+                    <h4>Pressure</h4>
+                    <h5 class="press">15.6%</h5>
+                </div>
+                <div id="dividerx"></div>
+
+                <div id="xx" class="left">
+                    <h4>Wind Speed</h4>
+                    <h5 class="wind">15.6%</h5>
+                </div>
+            </div>
+            <div class="divi2"></div>
+
+            <h4 id="next">Next 3 Days Forecast</h4>
+            <div class="box3">
+                <div class="last">
+                    <h5 id="ax" class="dt">24 May 2023</h5>
+                    <h5 id="bx" class="minmax">31°C/20°C</h5>
+                    <h5 id="cx" class="dc">Clear</h5>
+                </div>
+                <div class="last">
+                    <h5 id="ay" class="dt">24 May 2023</h5>
+                    <h5 id="by" class="minmax">20°C/31°C</h5>
+                    <h5 id="cy" class="dc">Clear</h5>
+                </div>
+                <div class="last">
+                    <h5 id="az" class="dt">24 May 2023</h5>
+                    <h5 id="bz" class="minmax">31°C/20°C</h5>
+                    <h5 id="cz" class="dc">Clear</h5>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
